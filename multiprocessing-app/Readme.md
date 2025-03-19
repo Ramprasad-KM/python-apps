@@ -1,10 +1,9 @@
-# This is an example Python app which runs in Kubernetes as a service and makes use of multiprocessing. It exposes these APIs:
-# /start - kills all processes and starts 5 processes which keep running
-# /stop - stops running processes
-# /status - gets the number of running processes
+This is an example Python app which runs in Kubernetes as a service and makes use of multiprocessing. It exposes these APIs:
+    /start - kills all processes and starts 5 processes which keep running
+    /stop - stops running processes
+    /status - gets the number of running processes
 
-# Follow all the steps if you want to build the app locally and deploy
-# Otherwise, skip steps 1-4 and start from step-5
+**Note**: Follow all the steps if you want to build the app locally and deploy. Otherwise, skip steps 1-4 and start from step-5
 
 1. pip install flask
 
