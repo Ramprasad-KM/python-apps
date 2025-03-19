@@ -9,9 +9,9 @@ This is an example Python app which runs in Kubernetes as a service and makes us
 
 2. docker build -t my-flask-app .
 
-3. docker tag my-flask-app <your-docker-repo>/my-flask-app:v1
+3. docker tag my-flask-app your-docker-repo/my-flask-app:v1
 
-4. docker push <your-docker-repo>/my-flask-app:v1
+4. docker push your-docker-repo/my-flask-app:v1
 
 5. kubectl apply -f deployment.yaml
 
