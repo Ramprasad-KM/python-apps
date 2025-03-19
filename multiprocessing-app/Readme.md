@@ -19,6 +19,6 @@ This is an example Python app which runs in Kubernetes as a service and makes us
 
 7. kubectl get svc flask-service
 
-curl -X POST http://<EXTERNAL-IP>/start  # Start processes
-curl -X POST http://<EXTERNAL-IP>/stop   # Stop processes
-curl -X GET http://<EXTERNAL-IP>/status  # Get status
+Start processes - curl -X POST http://EXTERNAL-IP/start
+Stop processes - curl -X POST http://EXTERNAL-IP/stop
+Get status - curl -X GET http://EXTERNAL-IP/status
