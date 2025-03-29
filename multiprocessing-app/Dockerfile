@@ -1,6 +1,11 @@
 # Use a lightweight Python image
 FROM python:3.10-slim
 
+ARG DD_GIT_REPOSITORY_URL
+ARG DD_GIT_COMMIT_SHA
+ENV DD_GIT_REPOSITORY_URL=${DD_GIT_REPOSITORY_URL} 
+ENV DD_GIT_COMMIT_SHA=${DD_GIT_COMMIT_SHA}
+
 # Set working directory inside the container
 WORKDIR /app
 
