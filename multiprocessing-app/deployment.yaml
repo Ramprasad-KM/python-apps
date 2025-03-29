@@ -22,3 +22,7 @@ spec:
         env:
         - name: "SPLUNK_PROFILER_ENABLED"
           value: "true"
+        - name: "DD_DYNAMIC_INSTRUMENTATION_ENABLED"
+          value: "true"
+        - name: "DD_SYMBOL_DATABASE_UPLOAD_ENABLED"
+          value: "true"
